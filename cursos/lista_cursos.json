@@ -1,0 +1,12 @@
+[
+  {
+    "id": "medicina_veterinaria",
+    "nome": "Medicina Veterinária - Bacharelado",
+    "tem_conteudo": true
+  },
+  {
+    "id": "agronomia",
+    "nome": "Agronomia - Bacharelado",
+    "tem_conteudo": true
+  }
+]
