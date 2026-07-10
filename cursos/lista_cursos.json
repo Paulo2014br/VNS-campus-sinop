@@ -8,5 +8,10 @@
     "id": "agronomia",
     "nome": "Agronomia - Bacharelado",
     "tem_conteudo": true
+  },
+  {
+    "id": "enfermagem",
+    "nome": "Agronomia - Bacharelado",
+    "tem_conteudo": true
   }
 ]
