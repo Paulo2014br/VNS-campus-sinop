@@ -1,0 +1,46 @@
+{
+  "id": "medicina_veterinaria",
+  "nome": "Medicina Veterinária",
+  "tem_conteudo": true,
+  "categorias": [
+    {
+      "nome": "Extensão",
+      "itens": []
+    },
+    {
+      "nome": "Ligas Acadêmicas e Grupos de Estudos",
+      "itens": [
+        {
+          "id": "lapet",
+          "titulo": "LAPET",
+          "subtitulo": "Liga de Pequenos Animais",
+          "descricao": "A LAPET foca no estudo e atendimento de cães e gatos, promovendo discussões sobre clínica e cirurgia de pequenos animais.",
+          "instagram_url": "https://www.instagram.com/lapet_ufmt/"
+        },
+        {
+          "id": "laccpa",
+          "titulo": "LACCPA",
+          "subtitulo": "Liga de Clínica e Cirurgia",
+          "descricao": "Liga dedicada ao aprimoramento técnico em procedimentos cirúrgicos e protocolos clínicos hospitalares.",
+          "instagram_url": "https://www.instagram.com/laccpa_ufmt/"
+        }
+      ]
+    },
+    {
+      "nome": "Estágios",
+      "itens": []
+    },
+    {
+      "nome": "Parceiros",
+      "itens": [
+        {
+          "id": "hovet",
+          "titulo": "HOVET UFMT",
+          "subtitulo": "Hospital Veterinário",
+          "descricao": "Hospital escola que atende a comunidade e serve de base para o aprendizado prático dos alunos.",
+          "instagram_url": "https://www.instagram.com/hovet.ufmtsinop/"
+        }
+      ]
+    }
+  ]
+}
