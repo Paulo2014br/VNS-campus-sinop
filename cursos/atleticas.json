@@ -1,0 +1,92 @@
+{
+  "id": "atleticas",
+  "nome": "Atléticas UFMT",
+  "tem_conteudo": true,
+  "categorias": [
+    {
+      "nome": "Liga e Atléticas",
+      "itens": [
+        {
+          "id": "lauf",
+          "titulo": "LAUF'S (@ligaufmtsinop)",
+          "subtitulo": "Liga das Atléticas Universitárias da UFMT Sinop",
+          "descricao": "Órgão central que coordena as atividades esportivas, integra as agremiações do câmpus e organiza campeonatos locais.",
+          "instagram_url": "https://www.instagram.com/ligaufmtsinop/",
+          "imagem_url": "logo_vn03"
+        },
+        {
+          "id": "murrah",
+          "titulo": "Atlética Murrah (@atleticamurrah)",
+          "subtitulo": "Associação Atlética Acadêmica de Engenharia Agrícola",
+          "descricao": "Representa os estudantes de Engenharia Agrícola, focada na integração dos alunos e na participação em jogos universitários.",
+          "instagram_url": "https://www.instagram.com/atleticamurrah/",
+          "imagem_url": "murrah_logo"
+        },
+        {
+          "id": "tratorada",
+          "titulo": "Atlética Tratorada (@tratorada)",
+          "subtitulo": "Associação Atlética Acadêmica de Agronomia",
+          "descricao": "Conhecida pelo lema #AMaiorDaUFMT, é uma das maiores e mais tradicionais do câmpus, com forte engajamento em festas e competições.",
+          "instagram_url": "https://www.instagram.com/tratorada/",
+          "imagem_url": "tratorada_logo"
+        },
+        {
+          "id": "soberanos",
+          "titulo": "Atlética Soberanos (@atleticasoberanos)",
+          "subtitulo": "Associação Atlética Acadêmica de Farmácia",
+          "descricao": "Entidade que representa os estudantes do curso de Farmácia, promovendo o esporte, eventos sociais e a união acadêmica.",
+          "instagram_url": "https://www.instagram.com/atleticasoberanos/",
+          "imagem_url": "soberanos_logo"
+        },
+        {
+          "id": "tupa",
+          "titulo": "Atlética Tupã (@atletica_tupa)",
+          "subtitulo": "Associação Atlética Acadêmica de Engenharia Florestal",
+          "descricao": "Agremiação dos alunos de Engenharia Florestal, ativa na organização de eventos integrativos e no desenvolvimento do esporte universitário.",
+          "instagram_url": "https://www.instagram.com/atletica_tupa/",
+          "imagem_url": "tupa_logo"
+        },
+        {
+          "id": "epidemia",
+          "titulo": "Atlética Epidemia (@aaangepidemia)",
+          "subtitulo": "Associação Atlética Acadêmica de Medicina e Enfermagem de Sinop",
+          "descricao": "Representação conjunta de saúde que fomenta a prática esportiva, ações sociais e grandes festas integrativas na região.",
+          "instagram_url": "https://www.instagram.com/aaangepidemia/",
+          "imagem_url": "epidemia_logo"
+        },
+        {
+          "id": "troianos",
+          "titulo": "Atlética Troianos (@atletica.troianos)",
+          "subtitulo": "Associação Atlética Acadêmica de Medicina Veterinária",
+          "descricao": "Heptacampeã das competições locais, é uma das potências esportivas da UFMT Sinop, com grande tradição e torcida engajada.",
+          "instagram_url": "https://www.instagram.com/atletica.troianos/",
+          "imagem_url": "troianos_logo"
+        },
+        {
+          "id": "bufalos",
+          "titulo": "Atlética Búfalos (@bufalos_sinop)",
+          "subtitulo": "Associação Atlética Acadêmica de Zootecnia",
+          "descricao": "Defende as cores e a tradição do curso de Zootecnia, mobilizando os alunos para campeonatos e integração estudantil.",
+          "instagram_url": "https://www.instagram.com/bufalos_sinop/",
+          "imagem_url": "bufalos_logo"
+        },
+        {
+          "id": "infeccao",
+          "titulo": "Atlética Infecção (@atleticainfeccaoo)",
+          "subtitulo": "Associação Atlética Acadêmica de Enfermagem",
+          "descricao": "Organização voltada para os estudantes de Enfermagem, focada no bem-estar dos alunos, jogos e eventos de integração da saúde.",
+          "instagram_url": "https://www.instagram.com/atleticainfeccaoo/",
+          "imagem_url": "infeccao_logo"
+        },
+        {
+          "id": "alcateia",
+          "titulo": "Alcateia UFMT (@alcateia.ufmt)",
+          "subtitulo": "Associação Atlética Acadêmica do ICNHS",
+          "descricao": "Representa o Instituto de Ciências Naturais, Humanas e Sociais, unindo diferentes cursos sob uma mesma identidade esportiva e cultural.",
+          "instagram_url": "https://www.instagram.com/alcateia.ufmt/",
+          "imagem_url": "alcateia_logo"
+        }
+      ]
+    }
+  ]
+}
