@@ -59,6 +59,46 @@ enfermagem.json
 Resumo de Manutenção
 •
 Mudar texto ou link de Instagram: Só editar o JSON no GitHub. O app atualiza na hora!
+
+
+. O Repositório GitHub (VNS-campus-sinop)
+Você usa o GitHub como seu servidor de dados. A pasta principal é a cursos/ e o link base que o app acessa é o raw.githubusercontent.com.
+•
+lista_cursos.json: É o "índice" do app. Ele contém uma lista simples com o nome de cada curso e o id (que deve ser o nome do arquivo JSON detalhado).
+•
+{id}.json (ex: medicina_veterinaria.json): Contém o conteúdo pesado. Aqui você definiu as Categorias (Projetos de Extensão, Ligas Acadêmicas, etc.) e os Itens dentro de cada categoria.
+2. Modelagem de Dados (  CourseModels.kt)
+Você criou classes que espelham exatamente o seu JSON:
+•
+CursoData: Representa o curso e sua lista de categorias.
+•
+CategoriaData: Agrupa os itens (ex: uma lista só de Ligas).
+•
+ItemConteudoData: Contém o título, subtítulo, link do Instagram e a descrição detalhada.
+3. Lógica do App (  CourseViewModel.kt)
+A ViewModel faz o "trabalho sujo" de buscar os dados:
+•
+OkHttpClient + Gson: O app faz uma requisição HTTP para o GitHub, baixa o texto do JSON e o transforma em objetos Kotlin automaticamente.
+•
+Carregamento Sob Demanda: Ao abrir a tela, ele baixa a lista de cursos. Só quando o usuário clica em um curso específico é que o app baixa o arquivo JSON detalhado daquele curso (economizando dados).
+4. Interface e Navegação (  CourseContentActivity.kt)
+Toda a tela foi feita em Jetpack Compose, organizada em estados:
+•
+Fluxo de Telas: Lista de Cursos -> Categorias -> Itens da Categoria.
+•
+Botão Voltar: A TopAppBar muda o título e a ação do botão conforme o nível de profundidade que o usuário está.
+•
+Intersticial: O app está configurado para mostrar um anúncio Intersticial logo na entrada da tela e depois a cada 10 cliques (conforme a função deveMostrarInterstitial).
+•
+Conteúdo Bloqueado (Rewarded): Você implementou uma trava de segurança. A descrição completa e o botão do Instagram só aparecem se o usuário assistir a um vídeo de recompensa (Anúncio Premiado), acionando a função liberarConteudo().
+Como adicionar novos conteúdos agora?
+1.
+Crie o arquivo JSON do curso no GitHub (ex: enfermagem.json) seguindo o template que você deixou no READ-CURSOS.md.
+2.
+Adicione o novo curso (id e nome) no arquivo lista_cursos.json no GitHub.
+3.
+O app irá carregar o novo curso automaticamente na próxima vez que for aberto!
+Você não precisa mexer em nada no código do Android Studio para adicionar novos cursos, apenas editar os arquivos no GitHub.
 •
 Adicionar uma nova categoria (ex: "Bolsas"): Só adicionar o bloco no JSON. O app cria o botão sozinho.
 •
