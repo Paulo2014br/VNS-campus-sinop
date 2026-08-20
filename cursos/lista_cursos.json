@@ -1,5 +1,10 @@
 [
   {
+    "id": "atleticas",
+    "nome": "🏆 Atléticas UFMT",
+    "tem_conteudo": true
+  },
+  {
     "id": "medicina_veterinaria",
     "nome": "Medicina Veterinária - Bacharelado",
     "tem_conteudo": true
@@ -11,7 +16,7 @@
   },
   {
     "id": "enfermagem",
-    "nome": "Agronomia - Bacharelado",
+    "nome": "Enfermagem - Bacharelado",
     "tem_conteudo": true
   }
 ]
